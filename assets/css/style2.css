@@ -11,45 +11,63 @@ h2 {
     color: #4aaaa5;
     font-family: Arial, Helvetica, sans-serif;
 
+
+}
+
+h4 {
+    color: white;
+    background-color: #4aaaa5;
+    width: 55px;
+    text-align: left;
 }
 
 .topmenu {
     float: right;
     font-family: Arial, Helvetica, sans-serif;
-    color: #777777;     
-
+    color: #777777;
 }
-
 .container-header {
     text-align: left;
     background-color: #ffffff;
-    border-bottom:  #cccccc 2px solid;
+    border-bottom: #cccccc 2px solid;
     overflow: auto;
     color: #777777;
+    margin-bottom: 25px;
+}
+
+.name {
+    border: 1px solid gray;
+}
+
+.email {
+    border: 1px solid gray;
+}
+
+.message {
+    border: 1px solid gray;
 }
 
 .container-body {
-   /* float: right; */
+    text-align: left;
     max-width: 960px;
     margin: 0 auto;
-    box-sizing: border-box; 
-    font-size: 20px;  
-    color: black;
-    border: 3px solid gray; 
+    color: #777777;
+    border: 3px solid gray;
     padding: 40px;
     
 }
 
-.image-float {
-     float: left
-
+.container-bottom {
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 55px;
+    padding: 15px; 
 }
+
 .footer {
     text-align: center;
     background-color: #666666;
     height: 60px;
 }
-
-
 
 
